@@ -1,0 +1,33 @@
+{
+  "name": "uniquafy",
+  "version": "1.0.0",
+  "description": "An AI Agent that 'Uniquafies' your Twitter profile picture. Built with ElizaOS.",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsx src/index.ts"
+  },
+  "keywords": [
+    "eliza",
+    "twitter",
+    "ai-agent"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@elizaos/core": "^0.1.7-alpha.1",
+    "@elizaos/client-twitter": "^0.1.7-alpha.1",
+    "@elizaos/plugin-node": "^0.1.7-alpha.1",
+    "@google-cloud/vertexai": "^1.7.0",
+    "dotenv": "^16.4.5",
+    "axios": "^1.7.7",
+    "sharp": "^0.33.5"
+  },
+  "devDependencies": {
+    "@types/node": "^22.5.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.5.4"
+  }
+}
